@@ -31,6 +31,10 @@
 			.info{margin: 5em auto;}
 			.info th{text-align: right; font-weight: normal; color: #000}
 			.info td{color: #666}
+	.plugins{border-top: solid 1px #666; padding: 3em}
+		.plugins ul{list-style: none; border: solid 1px #bbb; border-radius: 3px; padding: 0;}
+			.plugins li{padding: 0.5em 1em;}
+			.plugins a{display: block; text-decoration: none; margin: -0.5em -1em; padding: 0.5em 1em; border-bottom: solid 1px #bbb;}
 	.main{border-top: solid 1px #666;}
 		.f{margin: 5em 0; color: #666}
 		.f h3{font-weight: normal; line-height: 1; border-left: solid 2px #0af; color: #000; padding-left: .5em}
@@ -83,8 +87,81 @@
 		</div>
 	</div>
 </div>
+<div class="plugins">
+	<div class="container">
+		<h2>我的插件</h2>
+		<ul id="repo_listing" class="mini-repo-list js-repo-list" data-filterable-for="your-repos-filter" data-filterable-type="substring">
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/wu.cookie.js" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/wu.cookie.js">
+		        <span class="repo">wu.cookie.js</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/wu.db.js" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/wu.db.js">
+		        <span class="repo">wu.db.js</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/wu.dialog.js" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/wu.dialog.js">
+		        <span class="repo">wu.dialog.js</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/cssSprite" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/cssSprite">
+		        <span class="repo">cssSprite</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/Loader" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/Loader">
+		        <span class="repo">Loader</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/wui2" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/wui2">
+		        <span class="repo">wui2</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/waterfall" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/waterfall">
+		        <span class="repo">waterfall</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li class="public source">
+		    <a class="mini-repo-list-item css-truncate" href="https://github.com/wusfen/wu.guagua.js" data-ga-click="Dashboard, click, Repo list item click - context:user visibility:public fork:false">
+		        <svg aria-hidden="true" class="octicon octicon-repo repo-icon" height="16" role="img" version="1.1" viewBox="0 0 12 16" width="12"><path d="M4 9h-1v-1h1v1z m0-3h-1v1h1v-1z m0-2h-1v1h1v-1z m0-2h-1v1h1v-1z m8-1v12c0 0.55-0.45 1-1 1H6v2l-1.5-1.5-1.5 1.5V14H1c-0.55 0-1-0.45-1-1V1C0 0.45 0.45 0 1 0h10c0.55 0 1 0.45 1 1z m-1 10H1v2h2v-1h3v1h5V11z m0-10H2v9h9V1z"></path></svg>
+		      <span class="repo-and-owner css-truncate-target" title="wusfen/wu.guagua.js">
+		        <span class="repo">wu.guagua.js</span>
+		      </span>
+		    </a>
+		  </li>
+		  <li>...</li>
+      </ul>
+	</div>
+</div>
 <div class="main">
 	<div class="container">
+		<h2>简历</h2>
 		<div class="f">
 			<h3>教育经历</h3>
 			2010/9 - 2014/6	 本科
